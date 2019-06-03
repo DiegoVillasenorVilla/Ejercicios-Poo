@@ -1,0 +1,20 @@
+<!DOCTYPE html><html>
+   
+ <body>
+        <div id="my-svg"></div>
+    </body>
+
+    <script
+    src="https://cdn.jsdelivr.net/npm/raphael@2.2.7/raphael.min.js">
+  </script>
+ <script>
+    var paper= Raphael (document.getElementById('my-svg'),600,400);
+    var rect= paper.rect(0,0,600,400);
+    rect.attr('fill','#FF0');
+    var circle= paper.circle(300,200,120);
+    circle.attr('fill','FF0');
+    circle.attr('stroke-width', 0);
+    var triangle= paper.path('M100,50 L100,350 L500,350 L100,50')
+    let triangle1=paper.path('M'+'200'+','+'150 L50,35 L200,150')//M significa Move to
+ </script>
+ </html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <textarea  ID="area" rows="4" cols="50"></textarea>
+    <br>
+    <input type="button" value="Contador de caracteres" onclick="numeroCaracteres();">
+    <script src="nlp.js"></script>
+    <input type="button" value="Contar palabras" onclick="numeroPalabras;">
+
+    <script>
+    textoArea=document.getElementById("area").value;
+
+    numeroCaracteres=textoArea.lenght;
+    document.write(numeroCaracteres);
+    
+    
+    </script>
+
+    
+  
+
+
+    
+    
+</body>
+</html>

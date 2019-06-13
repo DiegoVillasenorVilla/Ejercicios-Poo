@@ -1,8 +1,8 @@
-let cube = function(list){
-    return list.map(function(number){
-        return number*number*number;
+let cubo = function(list){
+    return list.map(function(numero){
+        return numero*numero*numero;
     });
 };
 
-let a = [5,4,3,2,1];
-console.log(cube(a));
+let array= [5,4,3,2,1];
+console.log(cubo(array));
